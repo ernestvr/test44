@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/vtestspud/public_html/test44
+    - /bin/cp -R * $DEPLOYPATH
